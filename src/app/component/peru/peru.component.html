@@ -1,0 +1,8 @@
+<div *ngIf="!estado">
+    <div *ngFor="let peru of peru">
+        <h5>Nombre: {{peru.name}}</h5>
+        <h5>Capital: {{peru.capital |uppercase}}</h5>
+        <h5>Continente: {{peru.subregion }}</h5>
+        <h5>Area: {{peru.area}} m2.</h5>
+    </div>
+</div>

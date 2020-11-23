@@ -1,0 +1,23 @@
+<h2>Post Component</h2>
+
+<table>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+
+                <th scope="col">ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Body</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let post of postu">
+                <td>{{post.id}}</td>
+                <td>{{post.title}}</td>
+                <td>{{post.body}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</table>

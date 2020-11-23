@@ -1,0 +1,13 @@
+div {
+    height: 100%;
+}
+
+div .datos {
+    background-color: rgb(241, 242, 243);
+    height: 100%;
+    margin-left: 1em;
+}
+
+div h6 {
+    font-style: italic;
+}

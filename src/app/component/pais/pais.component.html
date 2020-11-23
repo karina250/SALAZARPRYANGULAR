@@ -1,0 +1,22 @@
+<table *ngIf="!estado">
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">COD</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Poblacion</th>
+                <th scope="col">Continente</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let paises of Paisese">
+                <td>{{paises.alpha3Code}}</td>
+                <td>{{paises.name}}</td>
+                <td>{{paises.population}}</td>
+                <td>{{paises.subregion}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</table>
